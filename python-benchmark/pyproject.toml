@@ -1,0 +1,12 @@
+[project]
+name = "python-benchmark"
+version = "0.1.0"
+description = "Small Python benchmark tasks contrasting buggy and fixed implementations"
+authors = [{ name = "Example" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"
